@@ -216,4 +216,8 @@ public class Controller implements Initializable {
         } while (!unencountered.isEmpty());
         return null; //No path found, so return null
     }
+
+    public void clearLines(){
+        //clearLines not yet implemented
+    }
 }
